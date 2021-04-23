@@ -88,6 +88,7 @@ Contributors
 * Vincent Vinet <vincent.vinet@savoirfairelinux.com>
 * Nicolas JEUDY <nicolas@sudokeys.com>
 * Dennis Sluijk <d.sluijk@onestein.nl>
+* Dhara Solanki <dhara.solanki@initos.com>
 
 Maintainer
 ----------

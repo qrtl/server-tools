@@ -21,7 +21,7 @@
 
 {
     "name": "Module Prototyper",
-    "version": "12.0.1.0.0",
+    "version": "14.0.1.0.0",
     "author": "Savoir-faire Linux, Sudokeys, Onestein, "
     "Odoo Community Association (OCA)",
     "maintainer": "Savoir-faire Linux",
@@ -29,8 +29,6 @@
     "license": "AGPL-3",
     "category": "Others",
     "summary": "Prototype your module.",
-    "depends": [],
-    "external_dependencies": {"python": []},
     "data": [
         "data/module_prototyper_api_version_data.xml",
         "wizard/module_prototyper_module_export_view.xml",
