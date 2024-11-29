@@ -2,11 +2,11 @@
 # License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
 
 from odoo.exceptions import AccessError
-from odoo.tests import SavepointCase, tagged
+from odoo.tests import common, tagged
 
 
 @tagged("post_install", "-at_install")
-class TestBaseModelRestrictUpdate(SavepointCase):
+class TestBaseModelRestrictUpdate(common.TransactionCase):
     @classmethod
     def setUpClass(cls):
         super().setUpClass()
