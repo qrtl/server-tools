@@ -28,8 +28,9 @@ Update Restrict Model
 
 |badge1| |badge2| |badge3| |badge4| |badge5|
 
-This module adds a config to apply a global update restriction to specific model,
-while only certain users can update the records if the config is enabled.
+This module adds the following features:
+* The ability to limit the update permissions for a model to certain groups
+* The ability to revoke update permissions for specific users
 
 **Table of contents**
 
@@ -39,12 +40,17 @@ while only certain users can update the records if the config is enabled.
 Configuration
 =============
 
-Enable the "Update Restrict Model" of specific model to restrict update from unpermitted users.
-To set a user as a permitted user to update restricted model(s), click on "Unrestrict
-Update" toggle button in the user form.
+When you want to limit the update permissions of a model to certain groups:
 
-Optionally, to set a user as read-only user to all models, click on "Read-only" toggle
-button in the user form.
+#. Go to *Settings > Techinical > Database Structure > Models*
+#. Open the form view of the model, and select 'Update Restrict Model'
+#. Assign the groups that should be exempt from the restriction to 'Update-allowed Groups'
+
+
+When you want revoke update permissions for a specific user:
+
+#. Go to *Settings > Users & Companies > Users*
+#. Open the form view of the user, and click the 'Read-only' smart button
 
 Bug Tracker
 ===========
@@ -67,7 +73,7 @@ Authors
 Contributors
 ~~~~~~~~~~~~
 
-* Quartile Limited
+* `Quartile <https://www.quartile.co>`__:
 
   * Yoshi Tashiro <tashiro@quartile.co>
 
